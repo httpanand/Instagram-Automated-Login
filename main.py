@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-browser = webdriver.Chrome(r'your chrome driver path') 
+driver = webdriver.Chrome(executable_path=r'your chrome driver path') 
 
 driver.get("https://www.instagram.com")
 time.sleep(3)
